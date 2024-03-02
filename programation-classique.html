@@ -80,9 +80,8 @@
             # Fonction pour dessiner la balle</div>
             def draw_ball(ball):
                 pygame.draw.rect(screen, WHITE, ball)
-          </pre>
-          <pre>
-            <div class="prog">
+            
+                <div class="prog">
             # Fonction pour dessiner le score</div>
             def draw_score(score1, score2):
                 score1_text = font.render("Player 1: " + str(score1), True, WHITE)
@@ -119,8 +118,7 @@
                         player1_paddle.y -= PADDLE_SPEED
                     if keys[pygame.K_s] and player1_paddle.bottom < HEIGHT:
                         player1_paddle.y += PADDLE_SPEED
-          </pre>
-          <pre>
+                    
                         <div class="prog">
                     # Contrôles de la raquette du joueur 2</div>
                     if keys[pygame.K_UP] and player2_paddle.top > 0:
@@ -151,8 +149,7 @@
                         ball = pygame.Rect(WIDTH // 2 - BALL_SIZE // 2, HEIGHT // 2 - BALL_SIZE // 2, BALL_SIZE, BALL_SIZE)
                         ball_speed_x = BALL_SPEED_X * random.choice((1, -1))
                         ball_speed_y = BALL_SPEED_Y * random.choice((1, -1))
-          </pre>
-          <pre>     
+   
                     <div class="prog">
                     # Effacer l'écran</div>
                     screen.fill(BG_COLOR)
