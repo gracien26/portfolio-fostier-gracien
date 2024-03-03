@@ -28,7 +28,7 @@ pre{font-size: 20.8px;}
 a:hover{
   color: deeppink;text-decoration: underline;
 }
-a{text-decoration: none;color:black; font-size: 50px; }
+
 
 .a-propos-accueil{text-align: justify;font-size: 30px;margin-left: 40px;margin-right: 40px;}
 
@@ -40,7 +40,7 @@ a{text-decoration: none;color:black; font-size: 50px; }
 
 .videopongac{border-radius: 50px;margin:20px;}
 
-a{margin-left: 20px;}
+a{margin-left: 20px; color: blue; text-decoration: underline;font-size: 50px;}
 
 .programme{color:rgb(250, 197, 52);background-color: rgb(45,48,44);}
 
@@ -52,7 +52,7 @@ a{margin-left: 20px;}
 
 .a-propos-gras{text-align: justify;font-size: 30px;margin-left: 40px;margin-right: 40px;color: darkorchid;}
 
-.reste{text-align: justify;font-size: 30px;margin-left: 40px;margin-right: 40px}
+.reste{text-align: justify;font-size: 30px;margin-left: 40px;margin-right: 40px; color: black}
 
 footer{background-color: #DEF2F1;}
 
